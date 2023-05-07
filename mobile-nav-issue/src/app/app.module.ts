@@ -10,7 +10,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   if(isDevMode()){
     return new TranslateHttpLoader(http)
   }
-  return new TranslateHttpLoader(http,"./mobile-dropdown-not-showing-up-on-iphone-browsers/");
+  return new TranslateHttpLoader(http,"./mobile-dropdown-not-showing-up-on-iphone-browsers/assets/i18n/");
 }
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
