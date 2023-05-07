@@ -23,7 +23,9 @@ windmillcodesite.web.app
 go to the miminal repro and see if the menu items pops up
 
 then go to the test site and open the actual device on mobile nav
+https://windmillcode.github.io/mobile-dropdown-not-showing-up-on-iphone-browsers/
 
+also try an andriod device and chrome browser and see the issue
 
 <!--- Provide a link to a live example, or an unambiguous set of steps to -->
 <!--- reproduce this bug. Include code to reproduce, if relevant -->
