@@ -22,7 +22,9 @@ go to the actual size on an ios device and open the mobile nav
 windmillcodesite.web.app
 go to the miminal repro and see if the menu items pops up
 
-then go to the test site and open the actual device on mobile nasv
+then go to the test site and open the actual device on mobile nav
+
+
 <!--- Provide a link to a live example, or an unambiguous set of steps to -->
 <!--- reproduce this bug. Include code to reproduce, if relevant -->
 1.
@@ -39,20 +41,14 @@ then go to the test site and open the actual device on mobile nasv
 ||||
 ||||
 ||||
+System Manufacturer:       LENOVO
+System Model:              82SX
+System Type:               x64-based PC
+OS Name:                   Microsoft Windows 11 Pro
+OS Version:                10.0.22621 N/A Build 22621
+Node                        v18.16.0
+NPM                         9.5.1
+yarn                       1.22.19 (installed using)
+angular                     "~16.0.0",
 
-## Files
-<!-- paste snippets as well as upload files -->
 
-
-
-
-<!--- How has this issue affected you? What are you trying to accomplish? -->
-<!--- Providing context helps us come up with a solution that is most useful in the real world -->
-
-<!--- Provide a general summary of the issue in the Title above -->
-
-## Detailed Description
-<!--- Provide a detailed description of the change or addition you are proposing -->
-
-## Possible Implementation
-<!--- Not obligatory, but suggest an idea for implementing addition or change -->
