@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -7,7 +7,10 @@ import { WmlMobileNavZeroModule } from '@windmillcode/angular-wml-mobile-nav-zer
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  if(isDevMode()){
+    return new TranslateHttpLoader(http)
+  }
+  return new TranslateHttpLoader(http,"./mobile-dropdown-not-showing-up-on-iphone-browsers/");
 }
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
