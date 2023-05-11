@@ -54,3 +54,5 @@ yarn                       1.22.19 (installed using)
 angular                     "~16.0.0",
 
 
+# Updates
+* if you watch this video you will see that what we have done is to replace the option tag with the p tag so it can render, is this an angular thing or safari thing I am suspecting its safari as we would like the code responsible to make the option element in safari appear regardless of what it is surronded by https://www.youtube.com/watch?v=JX_BS68i-q8

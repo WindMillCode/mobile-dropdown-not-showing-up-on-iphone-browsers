@@ -2,7 +2,6 @@ import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { WmlInfiniteDropdownModule } from '@windmillcode/angular-wml-infinite-dropdown';
 import { WmlMobileNavZeroModule } from '@windmillcode/angular-wml-mobile-nav-zero';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 
